@@ -1,4 +1,4 @@
-import { Location } from "../models/Location";
+import { Location } from "../models/location.model";
 
 export class LocationRepository {
   private locations: Location[] = [];

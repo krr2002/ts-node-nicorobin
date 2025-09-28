@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { LocationService } from "../services/LocationService";
+import { LocationService } from "../services/location.service";
 
 export class LocationController {
   private service: LocationService;

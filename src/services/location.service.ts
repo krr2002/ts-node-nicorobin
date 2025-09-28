@@ -1,5 +1,5 @@
-import { Location } from "../models/Location";
-import { LocationRepository } from "../repositories/LocationRepository";
+import { Location } from "../models/location.model";
+import { LocationRepository } from "../repositories/location.repository";
 
 export class LocationService {
   private repository: LocationRepository;

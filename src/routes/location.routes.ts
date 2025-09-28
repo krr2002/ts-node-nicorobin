@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { LocationRepository } from "../repositories/LocationRepository";
-import { LocationService } from "../services/LocationService";
-import { LocationController } from "../controllers/LocationController";
+import { LocationRepository } from "../repositories/location.repository";
+import { LocationService } from "../services/location.service";
+import { LocationController } from "../controllers/location.controller";
 
 const router = Router();
 const repository = new LocationRepository();
